@@ -1,28 +1,45 @@
+body {
+  font-family: serif;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  color: #CCDBEB;
+  background: #08172E;
+}
+
 h1 {
   font-size: 60px;
   text-align: center;
   margin: 0;
   padding: 20px 0;
-  color: #08172E;
+  /* color: #08172E; */
   text-shadow: 3px 3px 1px #f7911f;
 }
 
-li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-  color: #08172E
+P {
+  margin-block: 1.5em;
 }
 
-img {
+.container {
+  width: 680px;
   display: block;
   margin: 0 auto;
 }
 
-P {
-  color: #08172E;
+.fiche {
+  display: flex;
+  .fiche-image {
+    width: 50%;
+  }
+  .fiche-description {
+    margin-left: 1.5rem;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: monospace
+  }
+  .fiche-titre{
+    margin: 0;
+  }
+  .fiche-indication
 }
 
-h2 {
-  color: #08172E
-}
+
