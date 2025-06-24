@@ -1,0 +1,28 @@
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #08172E;
+  text-shadow: 3px 3px 1px #f7911f;
+}
+
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #08172E
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+P {
+  color: #08172E;
+}
+
+h2 {
+  color: #08172E
+}
